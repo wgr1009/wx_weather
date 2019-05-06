@@ -2,7 +2,7 @@
 
 '''
     通过wxpy获取微信联系人，利用apshedule模块作为定时, 从高德地图指定接口获取天气数据发送到微信联系人
-    key: 4e11b43dc3b4680a8c5dde0510a0d5ba
+    key: 
     url: https://restapi.amap.com/v3/weather/weatherInfo?parameters
 
 
@@ -23,7 +23,7 @@ class WxSpider:
         self.baseurl2 = "http://open.iciba.com/dsapi/"
         self.headers = {
             "User-Agent":'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Mobile Safari/537.36',
-            'Cookie':'guid=34f9-ca6e-eea6-172a; AMAPID=a8ef491d0033b954bcb64bd13ad2f90d; UM_distinctid=16a67810af39a-004c407432a829-424f0928-1fa400-16a67810af41c2; _uab_collina=155651467422265925469431; passport_login=MjU4NjM2MzgxLGFtYXBfMTc2MDA5MDAzMjlBTVRlZDBuQ3QsaWhkZGczcWVpbDN3ajZnNW9ucHU3NjRqa3V4NXN2YnosMTU1NjUxNDc4NyxZV1F5TVRoaE0yTmlZV1UwT0RVd016Y3lNR1UwTlRWa05URTJZMlZqTXpZPQ%3D%3D; dev_help=%2BR25WHCgsm9aLGNFV20GZmQzMmI1ZTcyZGMxZDE2ZTkzMDQ2MGIzNjk3OGYwOWI3YmUwMTY1MTFmMzdmODllMWZkMWUxNGE4MTNkOTY1ZWWk%2BYXVKgaqhB%2BiOt2xD72vVsIDP58qaM%2FYxyii0R9AYvY9TwhDan3PzHew6%2FsGryH5ZM9kaDz1r0sYPOiPTg1AmaUrSt65gV3U4xkzsa3QtYfFesBgKqWAKypgeYxk%2BR4%3D; PHPSESSID=pgkcljmjtucpcpfatos026nvu5; CNZZDATA1255621432=832294288-1556509634-https%253A%252F%252Fwww.baidu.com%252F%7C1557112533',
+      
         }
 
         LOG_FORMAT = '%(asctime)s : %(levelname)s : %(message)s'
@@ -54,7 +54,7 @@ class WxSpider:
         '''
 
         params = {
-            'key': '4e11b43dc3b4680a8c5dde0510a0d5ba',
+            'key': '',
             'city': '110000',
             'extensions': 'base',
             'output': 'JSON',
